@@ -1,0 +1,40 @@
+.inv-wrapper {
+  background: var(--bg-color);
+  color: var(--text-color);
+  padding: 8rem 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.inv-content {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  &.center { text-align: center; }
+  &.left { text-align: left; align-items: flex-start; }
+  
+  .ornament {
+    color: var(--primary-color);
+    margin-bottom: 2rem;
+    opacity: 0.6;
+  }
+  
+  .message {
+    font-family: var(--heading-font);
+    font-size: 24px;
+    line-height: 1.6;
+    margin-bottom: 3rem;
+    color: var(--secondary-color);
+    font-style: italic;
+  }
+  
+  .family {
+    font-family: var(--body-font);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 14px;
+    color: var(--primary-color);
+  }
+}
